@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://b7jek23h33ubi"]
+
+[ext_resource type="Script" uid="uid://bhoiwd683dd2b" path="res://addons/tool_button_grouper/button_group.gd" id="1_w40mn"]
+
+[node name="EditorProperty" type="EditorProperty"]
+anchors_preset = 10
+anchor_right = 1.0
+offset_right = -1089.0
+offset_bottom = 101.0
+grow_horizontal = 2
+draw_label = false
+draw_background = false
+script = ExtResource("1_w40mn")
+
+[node name="Root" type="HFlowContainer" parent="."]
+layout_mode = 2
+size_flags_horizontal = 3
+alignment = 1
+last_wrap_alignment = 2
