@@ -58,5 +58,5 @@ func _refresh_control_text(name:String,button:Button) -> void:
 		hint = hint.substr(0,icon_pos)
 	
 	if !icon.is_empty():
-		button.icon = get_theme_icon(icon)
+		button.icon = get_theme_icon(icon, "EditorIcons")
 	button.text = hint	
